@@ -1,0 +1,72 @@
+/* HEADER STYLE STARTED */
+
+.site__header {
+  background-color: #ffffff;
+}
+
+.header__section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 22px 0;
+}
+
+.header__section-start {
+  display: flex;
+}
+
+.header__section-logo {
+  margin-right: 58.18px;
+}
+
+.header__nav-list {
+  display: flex;
+  justify-content: space-between;
+  width: 249px;
+}
+
+.header__nav-link {
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--desc);
+}
+
+.header__nav-link:active {
+  color: var(--link);
+}
+
+.header__section-btn {
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--white);
+  background-color: var(--link);
+  padding: 14px 39px;
+}
+
+.header__section-btn:active{
+  color: var(--link);
+  background-color: var(--white);
+  border: 3px solid var(--link);
+  padding: 11px 36px;
+}
+
+/* HEADER STYLE FINISHED */
+
+/* MAIN STYLE STARTED */
+
+/* HERO STYLE STARTED */
+/* HERO STYLE FINISHED */
+
+/* GUIDE STYLE STARTED */
+/* GUIDE STYLE FINISHED */
+
+/* INFO STYLE STARTED */
+/* INFO STYLE FINISHED */
+
+/*  PRODUCT STARTED */
+/*  PRODUCT FINISHED */
+
+/* MAIN STYLE FINISHED */
+
+/* FOOTER STYLE STARTED */
+/* FOOTER STYLE FINISHED */
