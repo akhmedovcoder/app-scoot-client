@@ -59,7 +59,9 @@
 .hero__section {
   background-image: url(/images/home-images/hero-bg.jpg);
   background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
+  margin-bottom: 160px;
 }
 
 .hero__section-wrapper {
@@ -85,7 +87,7 @@
   margin-bottom: 40px;
 }
 
-.hero__section-desc::before{
+.hero__section-desc::before {
   position: absolute;
   display: inline-block;
   content: url(/images/home-images/hero-before.svg);
@@ -95,7 +97,7 @@
   height: 15px;
 }
 
-.hero__section-desc::after{
+.hero__section-desc::after {
   position: absolute;
   content: url(/images/home-images/hero-after.svg);
   top: calc(50% - 10px);
@@ -112,7 +114,7 @@
   margin-left: 95px;
 }
 
-.hero__section-btn:active{
+.hero__section-btn:active {
   color: var(--link);
   background-color: transparent;
   border: 3px solid var(--link);
@@ -122,6 +124,52 @@
 /* HERO STYLE FINISHED */
 
 /* GUIDE STYLE STARTED */
+
+.guide__section{
+  margin-bottom: 200px;
+}
+
+.guide__section-list{
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.guide__section-list::before{
+  display: inline-block;
+  position: absolute;
+  left: calc(50% - 760px);
+  content: "";
+  width: 974px;
+  height: 15px;
+  background-color: #E5ECF4;
+  margin-top: 40px;
+  z-index: 1;
+}
+
+.guide__box-icon {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  margin-bottom: 40px;
+  z-index: 5;
+}
+
+.guide__box-title {
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.0714285373687744px;
+  color: var(--title);
+  margin-bottom: 27px;
+}
+
+.guide__box-desc {
+  width: 350px;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--desc);
+}
+
 /* GUIDE STYLE FINISHED */
 
 /* INFO STYLE STARTED */
