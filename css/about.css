@@ -42,15 +42,15 @@
   margin-bottom: 120px;
 }
 
-.about__info-box:nth-child(1) img{
-  box-shadow: 529px 0px 0px #E5ECF4;
+.about__info-box:nth-child(1) img {
+  box-shadow: 529px 0px 0px #e5ecf4;
 }
 
-.about__info-box:nth-child(2) img{
-  box-shadow: -529px 0px 0px #E5ECF4;
+.about__info-box:nth-child(2) img {
+  box-shadow: -529px 0px 0px #e5ecf4;
 }
 
-.about__info-box:nth-child(1)::after{
+.about__info-box:nth-child(1)::after {
   position: absolute;
   display: inline-block;
   content: "";
@@ -61,7 +61,7 @@
   transform: rotateX(180deg);
 }
 
-.about__info-box:nth-child(2)::before{
+.about__info-box:nth-child(2)::before {
   position: absolute;
   display: inline-block;
   content: "";
@@ -99,6 +99,101 @@
 /* INFO STYLE FINISHED */
 
 /* VALUE STYLE STARTED */
+
+.value__section-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value__section-title {
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.142857074737549px;
+  color: var(--title);
+  margin-bottom: 103px;
+}
+
+.value__section-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.value__section-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value__card-img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  margin-bottom: 87px;
+}
+
+.value__card-title {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -1.0714285373687744px;
+  color: var(--title);
+  margin-bottom: 27px;
+}
+
+.value__section-card:nth-child(1) h3::before {
+  position: absolute;
+  display: inline-block;
+  content: "01";
+  font-size: 24px;
+  line-height: 28px;
+  top: calc(50% - 149px);
+  letter-spacing: -1.0714285373687744px;
+  color: #495567;
+  background-color: var(--link);
+  border-radius: 50%;
+  padding: 34px;
+}
+
+.value__section-card:nth-child(2) h3::before {
+  position: absolute;
+  display: inline-block;
+  content: "02";
+  font-size: 24px;
+  line-height: 28px;
+  top: calc(50% - 149px);
+  letter-spacing: -1.0714285373687744px;
+  color: #495567;
+  background-color: var(--link);
+  border-radius: 50%;
+  padding: 34px;
+}
+
+.value__section-card:nth-child(3) h3::before {
+  position: absolute;
+  display: inline-block;
+  content: "03";
+  font-size: 24px;
+  line-height: 28px;
+  top: calc(50% - 149px);
+  letter-spacing: -1.0714285373687744px;
+  color: #495567;
+  background-color: var(--link);
+  border-radius: 50%;
+  padding: 34px;
+}
+
+.value__card-desc {
+  width: 350px;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--desc);
+  text-align: center;
+}
+
 /* VALUE STYLE FINISHED */
 
 /* FAQ STYLE STARTED */
