@@ -100,10 +100,14 @@
 
 /* VALUE STYLE STARTED */
 
+.value__section{
+  margin-bottom: 120px;
+}
+
 .value__section-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
 }
 
 .value__section-title {
