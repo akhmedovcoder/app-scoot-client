@@ -125,24 +125,24 @@
 
 /* GUIDE STYLE STARTED */
 
-.guide__section{
+.guide__section {
   margin-bottom: 200px;
 }
 
-.guide__section-list{
+.guide__section-list {
   position: relative;
   display: flex;
   justify-content: space-between;
 }
 
-.guide__section-list::before{
+.guide__section-list::before {
   display: inline-block;
   position: absolute;
   left: calc(50% - 760px);
   content: "";
   width: 974px;
   height: 15px;
-  background-color: #E5ECF4;
+  background-color: #e5ecf4;
   margin-top: 40px;
   z-index: 1;
 }
@@ -173,9 +173,142 @@
 /* GUIDE STYLE FINISHED */
 
 /* INFO STYLE STARTED */
+
+.info__section{
+  overflow: hidden;
+}
+
+.info__section-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 160px;
+}
+
+.info-boy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 160px;
+}
+
+.info-boy::before {
+  position: absolute;
+  display: inline-block;
+  margin-top: 230px;
+  left: calc(50% + 18px);
+  content: url(/images/home-images/info-boy-before.svg);
+  width: 735px;
+  height: 100px;
+  z-index: 1;
+}
+
+.info-boy img {
+  width: 445px;
+  height: 445px;
+  border-radius: 50%;
+  box-shadow: 509px 0px 0px 0px #e5ecf4;
+}
+
+.info-city {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 160px;
+}
+
+.info-city img {
+  width: 445px;
+  height: 445px;
+  border-radius: 50%;
+  box-shadow: -509px 0px 0px 0px #e5ecf4;
+}
+
+.info-city::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  top: 0;
+  left: calc(50% - 1100px);
+  background-image: url(/images/home-images/info-boy-before.svg);
+  background-repeat: no-repeat;
+  width: 735px;
+  height: 150px;
+  transform: rotateY(180deg);
+  z-index: 1;
+}
+
+.info-payment {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 200px;
+}
+
+.info-payment img {
+  width: 445px;
+  height: 445px;
+  border-radius: 50%;
+  box-shadow: 509px 0px 0px 0px #e5ecf4;
+  border-radius: 50%;
+}
+
+.info-payment::before {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  top: calc(50% - 150px);
+  left: calc(50% + 360px);
+  background-image: url(/images/home-images/info-boy-before.svg);
+  background-repeat: no-repeat;
+  width: 735px;
+  height: 150px;
+  z-index: 1;
+}
+
+.info__box-content {
+  position: relative;
+}
+
+.info__content-title {
+  width: 445px;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14px;
+  color: var(--title);
+  margin-bottom: 24px;
+}
+
+.info__content-desc {
+  width: 445px;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--desc);
+  margin-bottom: 40px;
+}
+
+.info__content-btn {
+  display: inline-block;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--white);
+  background-color: var(--link);
+  padding: 14px 44px;
+}
+
+.info__content-btn:active {
+  color: var(--link);
+  background-color: var(--white);
+  border: 3px solid var(--link);
+  padding: 11px 41px;
+}
+
 /* INFO STYLE FINISHED */
 
 /*  PRODUCT STARTED */
+
 /*  PRODUCT FINISHED */
 
 /* MAIN STYLE FINISHED */
