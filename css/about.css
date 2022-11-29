@@ -1,12 +1,26 @@
+/* ABOUT STYLE STARTED */
+
 .about__section {
-  background-image: url(/images/about-images/about-bg.jpg),
-    url(/images/about-images/about-circle.png);
+  background-image: url(/images/about-images/about-bg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: hidden;
+  margin-bottom: 120px;
 }
 
 .about__section-wrapper {
+  position: relative;
   padding: 72px 0;
+}
+
+.about__section-wrapper::after {
+  position: absolute;
+  display: inline-block;
+  content: url(/images/about-images/about-circle.png);
+  width: 234px;
+  height: 62px;
+  top: calc(50% - 30px);
+  left: calc(50% + 560px);
 }
 
 .about__section-title {
@@ -15,3 +29,77 @@
   letter-spacing: -2.5px;
   color: var(--white);
 }
+
+/* ABOUT STYLE FINISHED */
+
+/* INFO STYLE STARTED */
+
+.about__info-box {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.about__info-box:nth-child(1) img{
+  box-shadow: 529px 0px 0px #E5ECF4;
+}
+
+.about__info-box:nth-child(2) img{
+  box-shadow: -529px 0px 0px #E5ECF4;
+}
+
+.about__info-box:nth-child(1)::after{
+  position: absolute;
+  display: inline-block;
+  content: "";
+  left: calc(50% + 24px);
+  background-image: url(/images/home-images/info-boy-before.svg);
+  width: 735px;
+  height: 150px;
+  transform: rotateX(180deg);
+}
+
+.about__info-box:nth-child(2)::before{
+  position: absolute;
+  display: inline-block;
+  content: "";
+  top: 0;
+  left: calc(50% - 1100px);
+  background-image: url(/images/home-images/info-boy-before.svg);
+  width: 735px;
+  height: 150px;
+  rotate: 180deg;
+  transform: rotateX(180deg);
+}
+
+.about__info-title {
+  width: 445px;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.142857074737549px;
+  color: var(--title);
+  margin-bottom: 24px;
+}
+
+.about__info-desc {
+  width: 445px;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--desc);
+}
+
+.about__info-img {
+  width: 445px;
+  height: 445px;
+  border-radius: 50%;
+}
+
+/* INFO STYLE FINISHED */
+
+/* VALUE STYLE STARTED */
+/* VALUE STYLE FINISHED */
+
+/* FAQ STYLE STARTED */
+/* FAQ STYLE FINISHED */
