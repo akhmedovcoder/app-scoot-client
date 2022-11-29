@@ -174,7 +174,7 @@
 
 /* INFO STYLE STARTED */
 
-.info__section{
+.info__section {
   overflow: hidden;
 }
 
@@ -308,6 +308,34 @@
 /* INFO STYLE FINISHED */
 
 /*  PRODUCT STARTED */
+
+.product__section {
+  background-color: #495567;
+  background-image: url(/images/home-images/product-bg.png);
+  background-repeat: no-repeat;
+  background-position: calc(50% + 315px) calc(50% + 175px);
+}
+
+.product__section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 102px 0;
+}
+
+.product__section-title {
+  width: 415px;
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.142857074737549px;
+  color: var(--white);
+}
+
+.product__section-end{
+  display: flex;
+  justify-content: space-between;
+  width: 359px;
+}
 
 /*  PRODUCT FINISHED */
 
