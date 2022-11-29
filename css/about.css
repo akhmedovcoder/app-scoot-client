@@ -1,0 +1,17 @@
+.about__section {
+  background-image: url(/images/about-images/about-bg.jpg),
+    url(/images/about-images/about-circle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about__section-wrapper {
+  padding: 72px 0;
+}
+
+.about__section-title {
+  font-size: 56px;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  color: var(--white);
+}
