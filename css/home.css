@@ -13,6 +13,7 @@
 
 .header__section-start {
   display: flex;
+  align-items: center;
 }
 
 .header__section-logo {
@@ -342,4 +343,52 @@
 /* MAIN STYLE FINISHED */
 
 /* FOOTER STYLE STARTED */
+
+.site__footer{
+  background-color: #333A44;
+  padding: 34px;
+}
+
+.footer__section-wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__section-start{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 417px;
+}
+
+.footer__nav-list{
+  display: flex;
+  justify-content: space-between;
+  width: 249px;
+}
+
+.footer__nav-link{
+  color: var(--desc);
+}
+
+.footer__nav-link:active{
+  color: var(--link);
+}
+
+.footer__section-icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 120px;
+}
+
+.footer__section-icons i{
+  font-size: 30px;
+  color: var(--link);
+}
+
+.footer__section-icons i:active{
+  color: #E5ECF4;
+}
+
 /* FOOTER STYLE FINISHED */

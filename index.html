@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Scoot</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/css/main.css" />
   </head>
   <body>
@@ -13,13 +17,15 @@
       <div class="container">
         <div class="header__section-wrapper">
           <div class="header__section-start">
-            <img
+            <a class="header__logo-link" href="#">
+              <img
               class="header__section-logo"
               src="/images/home-images/header-logo.svg"
               alt="logo img of header section"
               width="108"
               height="29"
             />
+            </a>
             <nav class="header__section-nav">
               <ul class="header__nav-list">
                 <li class="header__nav-item">
@@ -215,6 +221,41 @@
     <!-- MAIN SECTION FINISHED -->
 
     <!-- FOOTER SECTION STARTED -->
+    <footer class="site__footer">
+      <div class="container">
+        <div class="footer__section-wrapper">
+          <div class="footer__section-start">
+            <a class="footer__logo-link" href="/index.html">
+              <img
+                class="footer__logo-img"
+                src="/images/home-images/footer-logo.svg"
+                alt="footer logo img"
+              />
+            </a>
+            <ul class="footer__nav-list">
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">About</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Location</a>
+              </li>
+              <li class="footer__nav-item">
+                <a href="#" class="footer__nav-link">Careers</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__section-icons">
+            <a href="#" class="footer__icons-link"
+              ><i class="bx bxl-facebook-square"></i></a
+            ><a href="#" class="footer__icons-link"
+              ><i class="bx bxl-twitter"></i></a
+            ><a href="#" class="footer__icons-link"
+              ><i class="bx bxl-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </footer>
     <!-- FOOTER SECTION FINISHED -->
   </body>
 </html>
