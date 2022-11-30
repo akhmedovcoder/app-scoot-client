@@ -249,8 +249,8 @@
   font-weight: 700;
   line-height: 28px;
   letter-spacing: -1.0714285373687744px;
-  color: var(--title);
   margin-bottom: 24px;
+  color: var(--title);
 }
 
 .faq__section-text {
